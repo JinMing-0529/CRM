@@ -126,7 +126,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 </ul>
                  <ul class="sub-menu">
                     <li>
-                        <a _href="html/admin-list.html">
+                        <a _href="<%=basePath %>schedule.jsp">
                             <i class="iconfont">&#xe6bf;</i>
                             <cite>个人日程表</cite>
                         </a>
@@ -265,7 +265,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                         </a>
                     </li>
                     <li>
-                        <a _href="html/echarts5.html">
+                        <a _href="log/listAll.do">
                             <i class="iconfont">&#xe6a7;</i>
                             <cite>系统日志</cite>
                         </a>
